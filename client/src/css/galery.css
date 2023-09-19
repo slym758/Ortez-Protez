@@ -1,0 +1,109 @@
+.gallery_tabs {
+  margin-top: 55px;
+}
+
+.galery {
+  height: 80vh;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 45px;
+  margin-bottom: 65px;
+}
+
+.pics {
+  cursor: pointer;
+  border: 2px solid rgb(44, 79, 194);
+  border-radius: 15px;
+  height: 100%;
+  width: 100%;
+}
+
+.pics .pics_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  position: absolute;
+  transform: translateY(-45px);
+}
+
+.pics:hover {
+  opacity: 0.8;
+}
+
+.pics img {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.model_open {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.4s ease, visibility 0.4s ease,
+    transform 0.5s ease-in-out;
+  overflow: hidden;
+  z-index: 999;
+}
+
+.model_open img {
+  height: 80%;
+  width: 60%;
+}
+
+.model {
+  position: absolute;
+  transform: translateX(-1025px);
+
+  color: #fff;
+}
+
+.model img {
+  position: absolute;
+  transform: translateX(-1025px);
+}
+
+.model_open .css-i4bv87-MuiSvgIcon-root {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 5rem !important;
+  height: 5rem !important;
+  padding: 5px;
+
+  columns: #fff;
+  cursor: pointer;
+}
+
+.Pagination {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 55px;
+}
+
+@media only screen and (max-width: 600px) {
+  .galery .header_title {
+    height: 40vh;
+    align-items: flex-end;
+    padding-bottom: 55px;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .pics h3 {
+    width: 100%;
+  }
+  .ant-tabs-nav {
+    width: 100%;
+  }
+}

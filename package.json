@@ -1,0 +1,22 @@
+{
+  "name": "ortez-protez",
+  "version": "1.0.0",
+  "description": "Ortez-Protez-Website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slym758/Ortez-Protez.git"
+  },
+  "keywords": [
+    "ortez-protez"
+  ],
+  "author": "Süleyman Ardıç",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slym758/Ortez-Protez/issues"
+  },
+  "homepage": "https://github.com/slym758/Ortez-Protez#readme"
+}
